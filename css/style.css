@@ -76,17 +76,15 @@ body {
   font-family: var(--font-main);
 }
 /* common */
-
+.mobile-element {
+  display: block !important;
+}
 .tablet-element {
-  display: none !important;
+  display: none;
 }
 
 .desktop-element {
   display: none !important;
-}
-
-.mobile-element {
-  display: block;
 }
 
 .accent-btn {
@@ -109,7 +107,19 @@ body {
   background: transparent;
   color: var(--txt-c-accent);
 }
+
 .container {
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 30px 10px 55px 10px;
+  overflow: hidden;
+  width: 100%;
+}
+/* .container {
   min-width: 320px;
   width: 100%;
   display: flex;
@@ -118,7 +128,7 @@ body {
   box-sizing: border-box;
   margin: auto;
   padding: 30px 10px 55px 10px;
-}
+} */
 
 .container-left {
   align-items: flex-start;
@@ -343,7 +353,6 @@ body {
   position: relative;
   box-sizing: border-box;
   height: 85%;
-  width: 85%;
 }
 
 .project-modal-scrollable {
@@ -1062,7 +1071,7 @@ body {
   }
 
   .mobile-element {
-    display: none;
+    display: none !important;
   }
 
   .tablet-element {
@@ -1566,6 +1575,7 @@ body {
   .calculator .container {
     flex-direction: row;
     padding: 150px 10px;
+    width: auto;
   }
 
   .calculator-form {
@@ -1615,11 +1625,11 @@ body {
 
   /* MODALS */
   .modal-thank-form-text {
-    width: 350px;
+    width: 320px;
   }
 
   .modal-mobile-thank-content {
-    width: auto;
+    width: 60%;
     height: auto;
     padding: 60px 130px 80px 130px;
   }

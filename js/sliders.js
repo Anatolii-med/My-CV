@@ -7,7 +7,7 @@ var mySwiper = new Swiper('.swiper-container', {
 		el: '.swiper-pagination',
 	},
 
-	speed: 1000;
+	speed: 1000,
 
 	// Navigation arrows
 	navigation: {
