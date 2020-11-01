@@ -76,17 +76,15 @@ body {
   font-family: var(--font-main);
 }
 /* common */
-
+.mobile-element {
+  display: block !important;
+}
 .tablet-element {
-  display: none !important;
+  display: none;
 }
 
 .desktop-element {
   display: none !important;
-}
-
-.mobile-element {
-  display: block;
 }
 
 .accent-btn {
@@ -1062,7 +1060,7 @@ body {
   }
 
   .mobile-element {
-    display: none;
+    display: none !important;
   }
 
   .tablet-element {
@@ -1566,6 +1564,7 @@ body {
   .calculator .container {
     flex-direction: row;
     padding: 150px 10px;
+    width: auto;
   }
 
   .calculator-form {
