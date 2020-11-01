@@ -49,10 +49,8 @@
 @font-face {
   font-family: "Acrom";
   src: url("../fonts/acrom/Acrom-Bold.eot");
-  src: local("Acrom Bold"), local("Acrom-Bold"),
-    url("../fonts/acrom/Acrom-Bold.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/acrom/Acrom-Bold.woff") format("woff"),
-    url("../fonts/acrom/Acrom-Bold.ttf") format("truetype");
+  src: local("Acrom Bold"), local("Acrom-Bold"), url("../fonts/acrom/Acrom-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/acrom/Acrom-Bold.woff") format("woff"), url("../fonts/acrom/Acrom-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
@@ -62,8 +60,7 @@
   src: url("../fonts/acrom/Acrom-Regular.eot");
   src: local("Acrom Regular"), local("Acrom-Regular"),
     url("../fonts/acrom/Acrom-Regular.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/acrom/Acrom-Regular.woff") format("woff"),
-    url("../fonts/acrom/Acrom-Regular.ttf") format("truetype");
+    url("../fonts/acrom/Acrom-Regular.woff") format("woff"), url("../fonts/acrom/Acrom-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
